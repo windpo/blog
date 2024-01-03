@@ -1,2 +1,3 @@
-## blog
-A Personal static blog, based on Astro&&[Astro Theme YI](https://github.com/cirry/astro-yi)
+## Overview
+This is a Personal static blog, based on Astro&&Astro Theme YI
+Get more infomation from the [source](https://github.com/cirry/astro-yi)
