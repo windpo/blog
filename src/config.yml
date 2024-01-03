@@ -1,0 +1,114 @@
+site:
+  siteUrl: https://windpo.top # required
+  author: windpo
+  title: windpo's blog
+  description: 热爱生活、喜欢学习新事物的普通后端开发的博客
+  motto: "survive and be better"
+  indexPageSize: 10 # 首页展示文章数量
+  pageSize: 10 # 博客文章分页大小
+  archivePageSize: 25 # 归档分页大小
+  beian: # 备案号
+category:
+  - name: "首页"
+    iconClass: "ri-home-4-line"
+    href: "/"
+    activeName: "home"
+  - name: "博客"
+    iconClass: "ri-draft-line"
+    href: "/blog/1"
+    activeName: "blog"
+  - name: "动态"
+    iconClass: "ri-lightbulb-flash-line"
+    href: "/activity/1"
+    activeName: "activity"
+  - name: "归档"
+    iconClass: "ri-archive-line"
+    href: "/archive/1"
+    activeName: "archive"
+  - name: "关于"
+    iconClass: "ri-user-3-line"
+    href: "/about"
+    activeName: "about"
+  # - name: "留言"
+  #   iconClass: "ri-chat-1-line"
+  #   href: "/message"
+  #   activeName: "message"
+  - name: "搜索"
+    iconClass: "ri-search-line"
+    href: "/search"
+    activeName: "search"
+info:
+  outlinks:
+    # - icon: ri-twitter-fill
+    #   name: twitter
+    #   outlink: https:www.twitter.com/windpo98
+    - icon: ri-mail-fill
+      name: email
+      outlink: mailto:windpo98@gmail.com
+    - icon: ri-github-fill
+      name: github
+      outlink: https:www.github.com/windpo
+    - icon: ri-rss-fill
+      name: rss
+      outlink: /rss.xml
+donate:
+  enable: false
+  tip: "感谢大佬送来的咖啡☕"
+  wechatQRCode:
+  alipayQRCode:
+  paypalUrl:
+
+comment:
+  enable: false # 是否开启评论功能
+  serverUrl: # Waline 的服务端地址
+  pageSize: 20 ## The desired number of comments shown in each page.
+  wordLimit: ## Limit input word count, 0 means no limit
+  requiredMeta: ["nick", "mail"] ## required user information e.g. ['nick','mail','link']
+  count: 5 ## The number of recent comments,default. 10
+  pageview: false ## 流量统计
+  reaction: false ## 是否开启文章反应
+ad:
+  enable: false
+  adItems:
+    - link:
+      pic:
+friends:
+  - name: Yumo
+    description: 虚实之谜、生死轮回、宇宙奥秘、梦中残念、大道感悟
+    url: https://yumoyumo.top
+    avatar: https://avatars.githubusercontent.com/u/69838566?s=100&v=4
+
+  - name: Xunop
+    description: Keep It Simple & Stupid 
+    url: https://blog.fooo.in
+    avatar: https://avatars.githubusercontent.com/u/97818953?v=4
+
+  - name: Ming
+    description: 不知名大砖软件工程在读学生
+    url: https://blog.minng.cc
+    avatar: https://avatars.githubusercontent.com/u/87180157?s=100&v=4
+  
+  - name: NuoTian
+    description: 诺天的小世界
+    url: https://nuotian.furry.pro
+    avatar: https://code.furcode.cn/images/avatar_nuotian.jpg
+
+  - name: fengye404
+    description:  向来心是看客心，奈何人是剧中人
+    url: https://fengye404.top/
+    avatar: https://avatars.githubusercontent.com/u/74217701?s=100&v=4 
+
+  - name: love98
+    description: Some Simple Techs
+    url: https://love98.net/
+    avatar: https://avatars.githubusercontent.com/u/77888749?s=100&v=4
+  
+  - name: LiFeng
+    description: 还有好多要学😪
+    url: https://lifeng.dev/page/archives/
+    avatar: https://avatars.githubusercontent.com/u/96908064?v=4
+  
+  - name: Aiden2014
+    description: Keep on keeping on 
+    url: https://1a4.top/
+    avatar: https://avatars.githubusercontent.com/u/54656326?v=4
